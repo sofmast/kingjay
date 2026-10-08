@@ -1,0 +1,478 @@
+
+/* =========================================================
+   FEATURED MUSIC
+   ========================================================= */
+
+.featured {
+    background:
+        radial-gradient(
+            circle at 15% 20%,
+            rgba(204, 88, 88, 0.08),
+            transparent 35%
+        ),
+        #090909;
+
+    padding: clamp(70px, 9vw, 120px) 5%;
+}
+
+.featured-container {
+    width: min(1180px, 100%);
+    margin: 0 auto;
+}
+
+
+/* ---------------------------------------------------------
+   SECTION HEADING
+   --------------------------------------------------------- */
+
+.section-heading {
+    max-width: 650px;
+    margin-bottom: 45px;
+}
+
+.section-label {
+    display: inline-block;
+
+    color: #cc5858;
+
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.25em;
+}
+
+.section-heading h2 {
+    margin-top: 12px;
+
+    color: #fff;
+
+    font-size: clamp(2.3rem, 5vw, 4rem);
+    line-height: 1;
+    letter-spacing: -0.04em;
+}
+
+.section-heading h2 span {
+    color: #cc5891;
+}
+
+.section-heading p {
+    margin-top: 18px;
+
+    color: rgba(255, 255, 255, 0.58);
+
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+
+/* ---------------------------------------------------------
+   FEATURED CARD
+   --------------------------------------------------------- */
+
+.featured-music-card {
+    display: grid;
+    grid-template-columns: minmax(300px, 0.9fr) minmax(350px, 1.1fr);
+
+    min-height: 470px;
+
+    overflow: hidden;
+
+    background: #111;
+
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 24px;
+
+    box-shadow:
+        0 30px 80px rgba(0, 0, 0, 0.35);
+}
+
+
+/* ---------------------------------------------------------
+   ARTWORK
+   --------------------------------------------------------- */
+
+.featured-artwork {
+    position: relative;
+
+    min-height: 470px;
+
+    overflow: hidden;
+
+    background: #151515;
+}
+
+.featured-artwork img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+
+    transition: transform 0.7s ease;
+}
+
+.featured-music-card:hover
+.featured-artwork img {
+    transform: scale(1.05);
+}
+
+.artwork-overlay {
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    padding: 24px;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(0, 0, 0, 0.3),
+            transparent 45%,
+            rgba(0, 0, 0, 0.55)
+        );
+}
+
+.artwork-badge {
+    padding: 8px 12px;
+
+    border-radius: 7px;
+
+    background: #cc5858;
+    color: #fff;
+
+    font-size: 0.65rem;
+    font-weight: 800;
+    letter-spacing: 0.16em;
+}
+
+
+/* ---------------------------------------------------------
+   MUSIC INFORMATION
+   --------------------------------------------------------- */
+
+.featured-music-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: clamp(35px, 5vw, 70px);
+}
+
+.track-category {
+    color: #cc5858;
+
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+}
+
+.featured-music-info h3 {
+    margin-top: 15px;
+
+    color: #fff;
+
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    line-height: 1;
+    letter-spacing: -0.045em;
+}
+
+.track-description {
+    max-width: 500px;
+
+    margin-top: 22px;
+
+    color: rgba(255, 255, 255, 0.6);
+
+    font-size: 1rem;
+    line-height: 1.75;
+}
+
+
+/* ---------------------------------------------------------
+   TRACK META
+   --------------------------------------------------------- */
+
+.track-meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 22px;
+
+    margin-top: 25px;
+}
+
+.track-meta span {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    color: rgba(255, 255, 255, 0.48);
+
+    font-size: 0.8rem;
+}
+
+.track-meta i {
+    color: #cc5858;
+}
+
+
+/* ---------------------------------------------------------
+   TRACK ACTIONS
+   --------------------------------------------------------- */
+
+.track-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 12px;
+
+    margin-top: 32px;
+}
+
+.track-btn {
+    min-height: 50px;
+
+    padding: 0 22px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 9px;
+
+    border-radius: 9px;
+
+    font-size: 0.82rem;
+    font-weight: 800;
+
+    text-decoration: none;
+
+    transition:
+        transform 0.25s ease,
+        background 0.25s ease,
+        color 0.25s ease,
+        border-color 0.25s ease;
+}
+
+.track-btn-primary {
+    background: #cc5858;
+    color: #fff;
+}
+
+.track-btn-primary:hover {
+    background: #d96a6a;
+    transform: translateY(-3px);
+}
+
+.track-btn-secondary {
+    border: 1px solid rgba(255, 255, 255, 0.14);
+
+    background: rgba(255, 255, 255, 0.04);
+
+    color: #fff;
+}
+
+.track-btn-secondary:hover {
+    background: #fff;
+    color: #111;
+
+    border-color: #fff;
+
+    transform: translateY(-3px);
+}
+
+
+/* ---------------------------------------------------------
+   MUSIC PLATFORMS
+   --------------------------------------------------------- */
+
+.music-platforms {
+    margin-top: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 25px;
+
+    padding-top: 28px;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.platforms-label {
+    color: rgba(255, 255, 255, 0.35);
+
+    font-size: 0.65rem;
+    font-weight: 800;
+    letter-spacing: 0.16em;
+}
+
+.platform-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.platform-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 10px 14px;
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+
+    color: rgba(255, 255, 255, 0.65);
+
+    font-size: 0.75rem;
+    font-weight: 700;
+
+    text-decoration: none;
+
+    transition:
+        color 0.25s ease,
+        background 0.25s ease,
+        border-color 0.25s ease;
+}
+
+.platform-links a:hover {
+    color: #fff;
+
+    background: rgba(255, 255, 255, 0.06);
+
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.platform-links i {
+    font-size: 1rem;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 850px) {
+
+    .featured-music-card {
+        grid-template-columns: 1fr;
+    }
+
+    .featured-artwork {
+        min-height: min(80vw, 500px);
+    }
+
+    .featured-music-info {
+        padding: 40px;
+    }
+
+    .music-platforms {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+    .featured {
+        padding: 70px 5%;
+    }
+
+    .section-heading {
+        margin-bottom: 30px;
+    }
+
+    .section-heading h2 {
+        font-size: 2.4rem;
+    }
+
+    .section-heading p {
+        font-size: 0.9rem;
+    }
+
+    .featured-music-card {
+        border-radius: 18px;
+    }
+
+    .featured-artwork {
+        min-height: 90vw;
+        max-height: 430px;
+    }
+
+    .artwork-overlay {
+        padding: 18px;
+    }
+
+    .featured-music-info {
+        padding: 30px 24px;
+    }
+
+    .featured-music-info h3 {
+        font-size: 2rem;
+    }
+
+    .track-description {
+        font-size: 0.9rem;
+    }
+
+    .track-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .track-btn {
+        width: 100%;
+    }
+
+    .music-platforms {
+        margin-top: 35px;
+    }
+
+    .platform-links {
+        width: 100%;
+    }
+
+    .platform-links a {
+        flex: 1;
+        justify-content: center;
+    }
+}
+
+
+/* =========================================================
+   SMALL PHONES
+   ========================================================= */
+
+@media (max-width: 380px) {
+
+    .featured {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .featured-music-info {
+        padding: 25px 20px;
+    }
+
+    .platform-links {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .platform-links a {
+        width: 100%;
+    }
+}
