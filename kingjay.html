@@ -1,0 +1,1460 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<meta
+    name="description"
+    content="King Jay Thug Life — Music, Videos, News and Updates"
+>
+
+<meta
+    name="theme-color"
+    content="#cc5858"
+>
+
+<title>King Jay Thug Life</title>
+<link rel="stylesheet" href="CSS/headers.css">
+<link rel="stylesheet" href="CSS/hero.css">
+<link rel="stylesheet" href="CSS/feature.css">
+<link rel="stylesheet" href="CSS/latest-release-section.css">
+<link rel="stylesheet" href="CSS/whats-new-section.css">
+<link rel="stylesheet" href="CSS/music-modal.css">
+
+
+
+</head>
+
+<body>
+<!-- =========================================================
+     HEADER
+========================================================== -->
+
+<header class="header">
+
+
+    <!-- =====================================================
+         LEFT HEADER
+    ====================================================== -->
+
+    <div class="leftheader-wrapper">
+
+        <div class="brand-image">
+
+            <a href="home.html">
+
+                <img
+                    src="images/kingjay (1).jpeg"
+                    alt="King Jay"
+                    width="50"
+                    height="50"
+                >
+
+            </a>
+
+        </div>
+
+
+        <div class="band-wrapper">
+
+            <a href="home.html">
+                King Jay Thug Life
+            </a>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         MIDDLE HEADER
+    ====================================================== -->
+
+    <div class="middleheader-wrapper">
+
+        <form
+            action=""
+            method="post"
+            class="search-form"
+        >
+
+            <div class="search-wrapper">
+
+                <input
+                    type="text"
+                    name="search"
+                    class="search"
+                    placeholder="Search King Jay"
+                    aria-label="Search King Jay"
+                >
+
+                <button
+                    type="submit"
+                    name="submit-search"
+                    class="gobtn"
+                >
+                    Go
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         DESKTOP NAVIGATION
+    ====================================================== -->
+
+    <div class="rightheader-wrapper">
+
+
+        <nav
+            class="desktop-navigation"
+            aria-label="Main navigation"
+        >
+
+<a href="#" class="nav">Home</a>
+
+<a href="#music-modal" class="nav music-open">
+    Music
+</a>
+<a href="#" class="nav">Videos</a>
+<a href="#" class="nav">News</a>
+<a href="#" class="nav">Subscribe</a>
+
+        </nav>
+
+
+    </div>
+
+
+
+    <!-- =====================================================
+         MOBILE HAMBURGER
+    ====================================================== -->
+
+    <button
+        type="button"
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+    >
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </button>
+
+
+</header>
+
+
+
+<!-- =========================================================
+     MOBILE MENU OVERLAY
+========================================================== -->
+
+<div
+    class="menu-overlay"
+    id="menu-overlay"
+    aria-hidden="true"
+></div>
+
+
+
+<!-- =========================================================
+     MOBILE OFF-CANVAS MENU
+========================================================== -->
+
+<aside
+    class="mobile-menu"
+    id="mobile-menu"
+    aria-label="Mobile navigation"
+>
+
+
+    <!-- Mobile menu top -->
+
+    <div class="mobile-menu-header">
+
+
+        <div class="mobile-menu-brand">
+
+
+            <a href="home.html">
+
+                <img
+                    src="images/kingjay (1).jpeg"
+                    alt="King Jay"
+                    width="45"
+                    height="45"
+                >
+
+            </a>
+
+
+            <span>
+                King Jay Thug Life
+            </span>
+
+
+        </div>
+
+
+
+        <button
+            type="button"
+            class="menu-close"
+            id="menu-close"
+            aria-label="Close menu"
+        >
+
+            <span>&times;</span>
+
+        </button>
+
+
+    </div>
+
+
+
+    <!-- Mobile search -->
+
+    <div class="mobile-search-wrapper">
+
+
+        <form
+            action=""
+            method="post"
+            class="search-form"
+        >
+
+            <div class="search-wrapper">
+
+                <input
+                    type="text"
+                    name="search"
+                    class="search"
+                    placeholder="Search King Jay"
+                    aria-label="Search King Jay"
+                >
+
+                <button
+                    type="submit"
+                    name="submit-search"
+                    class="gobtn"
+                >
+                    Go
+                </button>
+
+            </div>
+
+        </form>
+
+
+    </div>
+
+
+
+    <!-- Mobile navigation -->
+
+    <nav
+        class="mobile-navigation"
+        aria-label="Mobile main navigation"
+    >
+
+
+    <a href="#" class="nav">Home</a>
+
+
+    <a href="#music-modal" class="nav music-open">
+        Music
+    </a>
+
+
+        <a href="#" class="nav">Videos</a>
+
+
+          <a href="#" class="nav">News</a>
+        <a href="#" class="nav">Subscribe</a>
+
+
+    </nav>
+
+
+</aside>
+
+<!-- =========================================================
+     MUSIC LIBRARY MODAL
+========================================================= -->
+
+<div
+    class="music-modal"
+    id="music-modal"
+    aria-hidden="true"
+>
+
+    <div
+        class="music-modal-backdrop"
+        data-music-close
+    ></div>
+
+
+    <aside
+        class="music-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="music-modal-title"
+    >
+
+        <!-- =================================================
+             MUSIC HEADER
+        ================================================== -->
+
+        <header class="music-panel-header">
+
+            <div class="music-panel-heading">
+
+                <span class="music-panel-kicker">
+                    KING JAY
+                </span>
+
+                <h2 id="music-modal-title">
+                    Music
+                </h2>
+
+            </div>
+
+
+            <button
+                type="button"
+                class="music-close"
+                id="music-close"
+                aria-label="Close music"
+                data-music-close
+            >
+                <span></span>
+                <span></span>
+            </button>
+
+        </header>
+
+
+        <!-- =================================================
+             MUSIC SEARCH
+        ================================================== -->
+
+        <div class="music-search-area">
+
+            <div class="music-search-box">
+
+                <span
+                    class="music-search-icon"
+                    aria-hidden="true"
+                >
+                    ⌕
+                </span>
+
+                <input
+                    type="search"
+                    id="music-search"
+                    class="music-search"
+                    placeholder="Search music..."
+                    autocomplete="off"
+                    aria-label="Search music"
+                >
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             CURRENT PLAYER
+        ================================================== -->
+
+        <section
+            class="music-player"
+            id="music-player"
+            aria-label="Music player"
+        >
+
+            <div class="music-player-art">
+
+                <img
+                    id="player-artwork"
+                    src="images/kingjay (1).jpeg"
+                    alt="Currently playing"
+                >
+
+                <div
+                    class="music-playing-indicator"
+                    id="music-playing-indicator"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </div>
+
+
+            <div class="music-player-info">
+
+                <span
+                    class="music-player-label"
+                    id="player-status"
+                >
+                    NOW PLAYING
+                </span>
+
+                <h3 id="player-title">
+                    Select a song
+                </h3>
+
+                <p id="player-artist">
+                    King Jay
+                </p>
+
+            </div>
+
+
+            <div class="music-player-controls">
+
+                <button
+                    type="button"
+                    class="player-control player-play"
+                    id="player-play"
+                    aria-label="Play selected song"
+                >
+                    ▶
+                </button>
+
+            </div>
+
+
+            <audio
+                id="music-audio"
+                preload="metadata"
+            ></audio>
+
+        </section>
+
+
+        <!-- =================================================
+             LIBRARY HEADER
+        ================================================== -->
+
+        <div class="music-library-header">
+
+            <div>
+                <span class="music-library-label">
+                    LIBRARY
+                </span>
+
+                <h3>
+                    Latest releases
+                </h3>
+            </div>
+
+            <span
+                class="music-count"
+                id="music-count"
+            >
+                0 tracks
+            </span>
+
+        </div>
+
+
+        <!-- =================================================
+             SONG LIST
+        ================================================== -->
+
+        <div
+            class="music-list"
+            id="music-list"
+        >
+
+            <!-- Songs rendered by JavaScript -->
+
+        </div>
+
+
+        <!-- =================================================
+             EMPTY STATE
+        ================================================== -->
+
+        <div
+            class="music-empty"
+            id="music-empty"
+            hidden
+        >
+
+            <div class="music-empty-icon">
+                ♪
+            </div>
+
+            <h3>
+                No music found
+            </h3>
+
+            <p>
+                Try another search.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             MUSIC FOOTER
+        ================================================== -->
+
+        <footer class="music-panel-footer">
+
+            <span>
+                King Jay Thug Life
+            </span>
+
+            <span>
+                Music Library
+            </span>
+
+        </footer>
+
+    </aside>
+
+</div>
+
+<!-- =========================================================
+     MAIN CONTENT
+========================================================== -->
+
+    <main id="main-content">
+
+
+    <!-- =========================================================
+         HERO SECTION
+    ========================================================== -->
+
+<section
+    class="hero"
+    id="hero"
+    aria-labelledby="hero-title"
+>
+
+    <!--
+    =========================================================
+    HERO BACKGROUND
+    Kept for future dynamic artwork / backend integration.
+    =========================================================
+    -->
+
+    <div
+        class="hero-background"
+        aria-hidden="true"
+    >
+
+        <img
+            src="images/heroImage.jpeg"
+            alt=""
+        >
+
+    </div>
+
+
+    <!--
+    =========================================================
+    HERO OVERLAY
+    Intentionally empty.
+    Kept for structural compatibility.
+    =========================================================
+    -->
+
+    <div
+        class="hero-overlay"
+        aria-hidden="true"
+    ></div>
+
+
+    <!--
+    =========================================================
+    HERO CONTAINER
+    =========================================================
+    -->
+
+    <div class="hero-container">
+
+
+        <!--
+        =====================================================
+        ARTIST ARTWORK
+        =====================================================
+        -->
+
+        <div class="hero-image-wrapper">
+
+            <div class="hero-image">
+
+                <img
+                    src="images/heroImage.jpeg"
+                    alt="King Jay"
+                    loading="eager"
+                >
+
+            </div>
+
+        </div>
+
+
+        <!--
+        =====================================================
+        ARTIST INFORMATION
+        =====================================================
+        -->
+
+        <div class="hero-content">
+
+
+            <!-- Editorial label -->
+
+            <span class="hero-label">
+                KING JAY
+            </span>
+
+
+            <!-- Main artist title -->
+
+            <h1 id="hero-title">
+
+                King Jay
+
+                <span>
+                    Thug Life
+                </span>
+
+            </h1>
+
+
+            <!-- Short artist introduction -->
+
+            <p class="hero-description">
+                Music, stories, videos and the latest
+                updates from King Jay.
+            </p>
+
+
+            <!--
+            =================================================
+            HERO ACTIONS
+            =================================================
+            -->
+
+            <div class="hero-actions">
+
+                <a
+                    href="music.html"
+                    class="hero-btn hero-btn-primary"
+                >
+                    Explore Music
+                </a>
+
+
+                <a
+                    href="videos.html"
+                    class="hero-btn hero-btn-secondary"
+                >
+                    Watch Videos
+                </a>
+
+            </div>
+
+
+            <!--
+            =================================================
+            HERO META
+            Backend-ready information row.
+            =================================================
+            -->
+
+            <div class="hero-meta">
+
+                <span class="hero-meta-item">
+
+                    <span class="hero-meta-label">
+                        LATEST
+                    </span>
+
+                    <span class="hero-meta-value">
+                        Music &amp; Releases
+                    </span>
+
+                </span>
+
+
+                <span class="hero-meta-divider"
+                    aria-hidden="true">
+                </span>
+
+
+                <span class="hero-meta-item">
+
+                    <span class="hero-meta-label">
+                        JOURNAL
+                    </span>
+
+                    <span class="hero-meta-value">
+                        News &amp; Stories
+                    </span>
+
+                </span>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+    <!--
+    =========================================================
+    SCROLL INDICATOR
+    =========================================================
+    -->
+
+    <a
+        href="#featured"
+        class="hero-scroll"
+        aria-label="Scroll to featured content"
+    >
+
+        <span>
+            Explore
+        </span>
+
+        <span
+            class="hero-scroll-arrow"
+            aria-hidden="true"
+        >
+            ↓
+        </span>
+
+    </a>
+
+
+</section>
+
+
+
+
+
+    <!-- =========================================================
+         FEATURED SECTION
+         Reserved for next part.
+    ========================================================== -->
+
+<section class="featured" id="featured">
+
+    <div class="featured-container">
+
+        <!-- SECTION HEADER -->
+        <div class="section-heading">
+
+            <span class="section-label">
+                KING JAY MUSIC
+            </span>
+
+            <h2>
+                Featured <span>Track</span>
+            </h2>
+
+            <p>
+                Listen to the latest music from King Jay Thug Life.
+            </p>
+
+        </div>
+
+
+        <!-- FEATURED MUSIC CARD -->
+        <article class="featured-music-card">
+
+            <!-- ARTWORK -->
+            <div class="featured-artwork">
+
+                <img
+                    src="images/kingjay (6).jpeg"
+                    alt="King Jay featured music artwork"
+                >
+
+                <div class="artwork-overlay">
+                    <span class="artwork-badge">
+                        FEATURED
+                    </span>
+                </div>
+
+            </div>
+
+
+            <!-- MUSIC INFORMATION -->
+            <div class="featured-music-info">
+
+                <span class="track-category">
+                    LATEST RELEASE
+                </span>
+
+                <h3>
+                    King Jay Thug Life
+                </h3>
+
+                <p class="track-description">
+                    Discover the latest sound, releases and
+                    musical journey of King Jay.
+                </p>
+
+
+                <!-- MUSIC META -->
+                <div class="track-meta">
+
+                    <span>
+                        <i class="fa-solid fa-music"></i>
+                        Music
+                    </span>
+
+                    <span>
+                        <i class="fa-regular fa-clock"></i>
+                        Latest
+                    </span>
+
+                </div>
+
+
+                <!-- ACTIONS -->
+                <div class="track-actions">
+
+                    <a
+                        href="music.html"
+                        class="track-btn track-btn-primary"
+                    >
+                        <i class="fa-solid fa-play"></i>
+                        Listen Now
+                    </a>
+
+                    <a
+                        href="music.html"
+                        class="track-btn track-btn-secondary"
+                    >
+                        View Music
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- MUSIC PLATFORM LINKS -->
+        <div class="music-platforms">
+
+            <span class="platforms-label">
+                FIND KING JAY ON
+            </span>
+
+            <div class="platform-links">
+
+                <a href="#" aria-label="Spotify">
+                    <i class="fa-brands fa-spotify"></i>
+                    Spotify
+                </a>
+
+                <a href="#" aria-label="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                    YouTube
+                </a>
+
+                <a href="#" aria-label="Apple Music">
+                    <i class="fa-solid fa-music"></i>
+                    Apple Music
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================================================
+     LATEST RELEASES
+============================================================-->
+
+<section class="latest-releases" id="latest-releases">
+
+    <div class="latest-container">
+
+        <div class="latest-header">
+
+            <div class="latest-heading">
+
+                <span class="section-label">
+                    MUSIC LIBRARY
+                </span>
+
+                <h2>
+                    Latest <span>Releases</span>
+                </h2>
+
+                <p>
+                    Explore the latest songs and releases from King Jay.
+                </p>
+
+            </div>
+
+            <a
+                href="music.html"
+                class="view-all-link"
+            >
+                View All Music
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <!-- RELEASE GRID -->
+
+        <div class="release-grid" id="release-grid">
+
+
+            <!-- RELEASE 01 -->
+
+            <article
+                class="release-card"
+                data-release-id="release-001"
+                data-release-type="single"
+            >
+
+                <a
+                    href="music.html"
+                    class="release-artwork"
+                >
+
+                    <img
+                        src="images/kingjay (1).jpeg"
+                        alt="King Jay music release"
+                        loading="lazy"
+                    >
+
+                    <span class="release-play">
+                        <i class="fa-solid fa-play"></i>
+                    </span>
+
+                </a>
+
+
+                <div class="release-info">
+
+                    <span class="release-type">
+                        SINGLE
+                    </span>
+
+                    <h3>
+                        King Jay Thug Life
+                    </h3>
+
+                    <p class="release-artist">
+                        King Jay
+                    </p>
+
+                    <div class="release-footer">
+
+                        <span class="release-year">
+                            2026
+                        </span>
+
+                        <a
+                            href="music.html"
+                            class="release-action"
+                            aria-label="Open King Jay Thug Life"
+                        >
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- RELEASE 02 -->
+
+            <article
+                class="release-card"
+                data-release-id="release-002"
+                data-release-type="single"
+            >
+
+                <a
+                    href="music.html"
+                    class="release-artwork"
+                >
+
+                    <img
+                        src="images/kingjay (2).jpeg"
+                        alt="King Jay latest release"
+                        loading="lazy"
+                    >
+
+                    <span class="release-play">
+                        <i class="fa-solid fa-play"></i>
+                    </span>
+
+                </a>
+
+
+                <div class="release-info">
+
+                    <span class="release-type">
+                        SINGLE
+                    </span>
+
+                    <h3>
+                        Latest Release
+                    </h3>
+
+                    <p class="release-artist">
+                        King Jay
+                    </p>
+
+                    <div class="release-footer">
+
+                        <span class="release-year">
+                            2026
+                        </span>
+
+                        <a
+                            href="music.html"
+                            class="release-action"
+                            aria-label="Open latest release"
+                        >
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- RELEASE 03 -->
+
+            <article
+                class="release-card"
+                data-release-id="release-003"
+                data-release-type="single"
+            >
+
+                <a
+                    href="music.html"
+                    class="release-artwork"
+                >
+
+                    <img
+                        src="images/kingjay (3).jpeg"
+                        alt="King Jay music"
+                        loading="lazy"
+                    >
+
+                    <span class="release-play">
+                        <i class="fa-solid fa-play"></i>
+                    </span>
+
+                </a>
+
+
+                <div class="release-info">
+
+                    <span class="release-type">
+                        FEATURED
+                    </span>
+
+                    <h3>
+                        King Jay Music
+                    </h3>
+
+                    <p class="release-artist">
+                        King Jay
+                    </p>
+
+                    <div class="release-footer">
+
+                        <span class="release-year">
+                            2026
+                        </span>
+
+                        <a
+                            href="music.html"
+                            class="release-action"
+                            aria-label="Open King Jay music"
+                        >
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- RELEASE 04 -->
+
+            <article
+                class="release-card"
+                data-release-id="release-004"
+                data-release-type="single"
+            >
+
+                <a
+                    href="music.html"
+                    class="release-artwork"
+                >
+
+                    <img
+                        src="images/EPcover.jpeg"
+                        alt="King Jay release"
+                        loading="lazy"
+                    >
+
+                    <span class="release-play">
+                        <i class="fa-solid fa-play"></i>
+                    </span>
+
+                </a>
+
+
+                <div class="release-info">
+
+                    <span class="release-type">
+                        EP
+                    </span>
+
+                    <h3>
+                        New Music
+                    </h3>
+
+                    <p class="release-artist">
+                        King Jay
+                    </p>
+
+                    <div class="release-footer">
+
+                        <span class="release-year">
+                            2026
+                        </span>
+
+                        <a
+                            href="music.html"
+                            class="release-action"
+                            aria-label="Open new music"
+                        >
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     WHAT'S NEW / MUSIC BLOG
+     Backend-ready article structure
+     ========================================================= -->
+
+<section class="blog-section" id="whats-new">
+
+    <div class="blog-container">
+
+        <!-- SECTION HEADER -->
+
+        <div class="blog-header">
+
+            <div class="blog-heading">
+
+                <span class="section-label">
+                    KING JAY JOURNAL
+                </span>
+
+                <h2>
+                    What's <span>New?</span>
+                </h2>
+
+                <p>
+                    Music news, releases, stories and updates from King Jay.
+                </p>
+
+            </div>
+
+            <a
+                href="news.html"
+                class="view-all-link"
+            >
+                View All Stories
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <!-- BLOG CONTENT -->
+
+        <div class="blog-layout">
+
+
+            <!-- FEATURED STORY -->
+
+            <article
+                class="featured-story"
+                data-article-id="article-001"
+                data-category="music"
+            >
+
+                <a
+                    href="news.html"
+                    class="featured-story-image"
+                >
+
+                    <img
+                        src="images/heroImage.jpeg"
+                        alt="King Jay featured story"
+                        loading="lazy"
+                    >
+
+                    <span class="story-category">
+                        MUSIC
+                    </span>
+
+                </a>
+
+
+                <div class="featured-story-content">
+
+                    <div class="story-meta">
+
+                        <span>
+                            18 September 2026
+                        </span>
+
+                        <span class="meta-dot"></span>
+
+                        <span>
+                            King Jay
+                        </span>
+
+                    </div>
+
+                    <h3>
+                        King Jay Thug Life — Music, Stories & What's New
+                    </h3>
+
+                    <p>
+                        Stay connected with the latest music,
+                        releases, performances and updates from King Jay.
+                    </p>
+
+                    <a
+                        href="news.html"
+                        class="read-story"
+                    >
+                        Read Story
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- STORY LIST -->
+
+            <div class="story-list">
+
+
+                <!-- STORY 01 -->
+
+                <article
+                    class="story-item"
+                    data-article-id="article-002"
+                    data-category="release"
+                >
+
+                    <a
+                        href="news.html"
+                        class="story-item-image"
+                    >
+
+                        <img
+                            src="images/kingjay (5).jpeg"
+                            alt="King Jay new music"
+                            loading="lazy"
+                        >
+
+                    </a>
+
+
+                    <div class="story-item-content">
+
+                        <span class="story-item-category">
+                            RELEASE
+                        </span>
+
+                        <h3>
+                            New music from King Jay
+                        </h3>
+
+                        <div class="story-item-meta">
+                            2026
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STORY 02 -->
+
+                <article
+                    class="story-item"
+                    data-article-id="article-003"
+                    data-category="news"
+                >
+
+                    <a
+                        href="news.html"
+                        class="story-item-image"
+                    >
+
+                        <img
+                            src="images/hereoImage2.jpeg"
+                            alt="King Jay music news"
+                            loading="lazy"
+                        >
+
+                    </a>
+
+
+                    <div class="story-item-content">
+
+                        <span class="story-item-category">
+                            NEWS
+                        </span>
+
+                        <h3>
+                            Inside the world of King Jay Thug Life
+                        </h3>
+
+                        <div class="story-item-meta">
+                            2026
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STORY 03 -->
+
+                <article
+                    class="story-item"
+                    data-article-id="article-004"
+                    data-category="update"
+                >
+
+                    <a
+                        href="news.html"
+                        class="story-item-image"
+                    >
+
+                        <img
+                            src="images/kingjay (1).jpeg"
+                            alt="King Jay latest update"
+                            loading="lazy"
+                        >
+
+                    </a>
+
+
+                    <div class="story-item-content">
+
+                        <span class="story-item-category">
+                            UPDATE
+                        </span>
+
+                        <h3>
+                            Follow the latest King Jay updates
+                        </h3>
+
+                        <div class="story-item-meta">
+                            2026
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+</main>
+
+
+
+<!-- =========================================================
+     JAVASCRIPT
+     We will connect this after the CSS.
+========================================================== -->
+
+<script src="JS/index.js"></script>
+<script src="JS/music-modal.js"></script>
+
+
+</body>
+
+</html>
