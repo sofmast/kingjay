@@ -333,14 +333,14 @@
             <h2 id="loadingTitle">Please wait</h2>
 
             <p id="loadingMessage">
-                Preparing your workspace. This will only take a moment.
+                Configuration in progress. This will take a while.
             </p>
 
             <div class="progress-track" aria-hidden="true">
                 <div class="progress-bar"></div>
             </div>
 
-            <p class="loading-note">
+            <p class="loading-note" id="connection">
                 Please do not close this page.
             </p>
         </div>
@@ -451,7 +451,7 @@
 
         // Hide after the document has loaded.
         function initializePage() {
-            hideLoading();
+            //hideLoading();
         }
 
         if (document.readyState === 'complete') {
@@ -475,7 +475,7 @@
 
             // Demo only: replace with actual task completion.
             window.setTimeout(function () {
-                hideLoading();
+                //hideLoading();
             }, 2000);
         });
 
