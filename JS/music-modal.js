@@ -14,7 +14,7 @@ const musicLibrary = [
     {
         id: "song-001",
 
-        title: "Your Song Title",
+        title: "Rise from Ashley",
 
         artist: "King Jay",
 
@@ -22,10 +22,10 @@ const musicLibrary = [
             "images/kingjay (1).jpeg",
 
         audioUrl:
-            "music/song-001.mp3",
+            "music/KingJay ThügLïfê _Rises From Ashley_prod_by_Mediar .mp3.mp3",
 
         downloadUrl:
-            "music/song-001.mp3",
+            "music/KingJay ThügLïfê _Rises From Ashley_prod_by_Mediar .mp3.mp3",
 
         duration: "03:42",
 
@@ -37,18 +37,18 @@ const musicLibrary = [
     {
         id: "song-002",
 
-        title: "Another Release",
+        title: "I Choose you",
 
-        artist: "King Jay",
+        artist: "Anko Charlie",
 
         artwork:
-            "images/kingjay (1).jpeg",
+            "images/mej.jpg",
 
         audioUrl:
-            "music/song-002.mp3",
+            "music/UKUBA NAIWE.mp3",
 
         downloadUrl:
-            "music/song-002.mp3",
+            "music/UKUBA NAIWE.mp3",
 
         duration: "04:08",
 
@@ -60,18 +60,18 @@ const musicLibrary = [
     {
         id: "song-003",
 
-        title: "Latest Track",
+        title: "Lions Den",
 
-        artist: "King Jay",
+        artist: "King Jay Thug Life",
 
         artwork:
             "images/kingjay (1).jpeg",
 
         audioUrl:
-            "music/song-003.mp3",
+            "music/King Jay Thug Life  x Star Girl __Lions Den_RixioningMusicafrica.mp3.mp3",
 
         downloadUrl:
-            "music/song-003.mp3",
+            "music/King Jay Thug Life  x Star Girl __Lions Den_RixioningMusicafrica.mp3.mp3",
 
         duration: "03:27",
 
